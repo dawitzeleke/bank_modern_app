@@ -16,7 +16,7 @@ function Navbar() {
             key={nav.id}
             className={`fonts-poppins font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
-            } text-white`}
+            } text-dimWhite`}
           >
             <a href={`#${nav.id}`}> {nav.title}</a>
           </li>
@@ -41,7 +41,7 @@ function Navbar() {
                 key={nav.id}
                 className={`fonts-poppins font-normal cursor-pointer text-[16px] ${
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
-                } text-white`}
+                } text-dimWhite`}
               >
                 <a href={`#${nav.id}`}> {nav.title}</a>
               </li>
